@@ -1,0 +1,89 @@
+body{
+    background-color: rgb(217, 217, 217);
+    margin: 0px ; /* to make every thing in the web next to it's frame */ 
+}
+
+.above{
+    background-color:white;
+    height: 80px;
+    align-items: center;
+    
+}
+
+select{
+    border: 0px;
+    color: rgb(93, 93, 93);
+}
+
+h2{
+    display:inline;
+    margin: 0px 70px;
+    color: black;
+}
+
+a{
+    margin: 0px 50px; 
+    color: rgb(93, 93, 93);
+    text-decoration: none;
+}
+
+.btn{
+    background-color: rgb(255, 0, 0);
+    border-radius: 65px;
+    width: 110px;
+    height: 30px;
+    margin-top: 25px;
+}
+
+a:hover{
+    color: black;
+    text-decoration: underline;
+    text-decoration-color: red;
+}
+
+select:hover{
+    color: black;
+}
+
+.middle{
+    overflow: auto;
+}
+
+.text{
+    float: left;
+    /* width: 25%; */
+    width: 300px;
+    height: 460px;
+    margin-top: 100px;
+    margin-left: 20px;
+}
+
+.image{
+    float: right;
+    margin-right: 20px;
+}
+
+img{
+    width: 400pxx;
+    height: 400px;
+    margin:100px;
+}
+
+p{
+    letter-spacing: 1px;
+    font-size:40px ;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+span{
+    margin-top: 20px;
+}
+
+.btn1{
+    background-color: rgb(255, 0, 0);
+    border-radius: 65px;
+    width: 110px;
+    height: 30px;
+    margin-top: 25px;
+    display: block;
+}
